@@ -1,9 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;500&display=swap');
+
 html{
     position: relative;
 }
 body{
     margin-bottom: 120px;
+    margin-top: 30px;
 }
+/* navbar Css */
+.navbar{
+    background-image: linear-gradient(to right, rgb(125, 125, 250),rgb(255, 136, 136));
+    border-bottom: 0;
+    box-shadow: 0 2px 5px rgb(149, 182, 212);
+}
+.navbar .navbar-header .navbar-toggle{
+    background-color: rgb(255, 136, 136);
+}
+.navbar .navbar-header .navbar-toggle:active{
+    background-color: rgb(255, 200, 200);
+    border: 1px solid rgb(255, 82, 82);
+}
+.navbar .navbar-brand, .navbar .navbar-right li a{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar .navbar-brand:visited, .navbar .navbar-right li a:visited{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar .navbar-brand:hover, .navbar .navbar-right li a:hover{
+    color: rgb(224, 212, 212);
+}
+/* Akhir Navbar Css */
+
 .jumbotron, .portfolio{
     background-image: linear-gradient(to bottom right,rgb(125, 125, 250),rgb(255, 136, 136));
 }
