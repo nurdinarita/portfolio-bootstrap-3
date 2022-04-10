@@ -15,6 +15,7 @@ body{
 }
 .navbar .navbar-header .navbar-toggle{
     background-color: rgb(255, 136, 136);
+    border: 1px solid rgb(235, 205, 205);
 }
 .navbar .navbar-header .navbar-toggle:active{
     background-color: rgb(255, 200, 200);
